@@ -1,6 +1,6 @@
 <script>
   import HighlightedText from "./HighlightedText.svelte";
-  import Timer from "./Timer";
+  import Timer from "./Timer.svelte";
 
   let text = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem voluptatem magni commodi magnam, molestias fugiat cum nam nisi eius dignissimos illum omnis. Voluptatem ut cumque vero quis eveniet explicabo ad!"
   let typed = "";
@@ -12,7 +12,7 @@
 </script>
 
 <h1>Typing Game!</h1>
-<Timer started finished/>
+<Timer started={started} finished={finished}/>
 
 <h2>Please type this as fast as you can:</h2>
 <HighlightedText text={text} typed={typed} />
