@@ -1,6 +1,6 @@
-# svelte-boilerplate
+# svelte-typing-game
 
-Boilerplate for Svelte with Github Pages.
+Svelte Typing game with Github Pages.
 
 ## Install dependencies
 
